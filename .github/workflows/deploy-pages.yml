@@ -32,7 +32,7 @@ jobs:
           touch .env
           flutter pub get
           flutter build web --release \
-            --base-href "/Pet-App/" \
+            --base-href "/Pet-Bloom/" \
             --dart-define=SUPABASE_URL=https://gsyzqytiitkmtjlcqdst.supabase.co \
             --dart-define=SUPABASE_PUBLISHABLE_KEY=sb_publishable_gU5FrehFxdc2X9YH6rGIlw_tR39lEO6
 
