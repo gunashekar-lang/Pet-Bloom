@@ -1,6 +1,6 @@
 {
-    "name": "pet_super_app",
-    "short_name": "pet_super_app",
+    "name": "petbloom",
+    "short_name": "petbloom",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
