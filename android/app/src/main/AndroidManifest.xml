@@ -1,11 +1,15 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Required for release builds: Flutter only injects this into debug
+         manifests, and without it Android refuses all DNS/socket lookups
+         ("Failed host lookup", errno 7) for Supabase auth calls. -->
+    <uses-permission android:name="android.permission.INTERNET"/>
     <!-- image_picker opens the system camera through an intent, so no CAMERA
          permission is declared here. Declaring it without granting it at
          runtime makes ImageSource.camera silently fail on Android 11+. -->
     <uses-feature android:name="android.hardware.camera" android:required="false"/>
 
     <application
-        android:label="PetHub"
+        android:label="petbloom"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity

@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 class AppConstants {
   AppConstants._();
 
-  static const String appName = 'PetHub';
+  static const String appName = 'petbloom';
   static const String appTagline = 'Adopt. Love. Belong.';
 
   // Storage keys

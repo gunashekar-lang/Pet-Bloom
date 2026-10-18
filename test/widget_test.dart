@@ -1171,7 +1171,7 @@ void main() {
     await tester.pumpWidget(const PetHubApp());
     await tester.pump();
 
-    expect(find.text('PetHub'), findsOneWidget);
+    expect(find.text('petbloom'), findsOneWidget);
     expect(find.byType(LinearProgressIndicator), findsOneWidget);
 
     // Let the bootstrap delays settle so no timers outlive the test.

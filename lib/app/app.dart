@@ -84,7 +84,7 @@ class _PetHubAppState extends State<PetHubApp> {
         ),
       ],
       child: MaterialApp(
-        title: 'PetHub',
+        title: 'petbloom',
         debugShowCheckedModeBanner: false,
         theme: AppTheme.light,
         darkTheme: AppTheme.dark,
